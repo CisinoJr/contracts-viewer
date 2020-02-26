@@ -1,0 +1,45 @@
+li.contract-item {
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 20px;
+}
+
+li.contract-item header {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contract-info strong {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+.contract-info span {
+  font-size: 13px;
+  color: #999;
+  margin-top: 2px;
+}
+
+li.contract-item p {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+li.contract-item a {
+  color: #8e4dff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.5s;
+  margin-top: 5px;
+  float: right;
+}
+
+li.contract-item a:hover {
+  color: #5a2ea6;
+}
