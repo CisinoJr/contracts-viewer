@@ -33,6 +33,10 @@ function App() {
       </header>
       <div id="app">
         <main>
+          <div className="search-field">
+            <input className="search-input" type="text" id="search" name="search" placeholder="Pesquise por Identificador ou Número do Processo. Comece a digitar para pesquisar..." />
+          </div>
+
           <ul>
             {contracts.map(contract => (
               <ContractItem key={contract.identificador} contract={contract} />
